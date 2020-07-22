@@ -2,7 +2,6 @@ package com.test.message;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-
 public class Main extends JavaPlugin {
 	
 	private MessageManager manager;
@@ -19,7 +18,4 @@ public class Main extends JavaPlugin {
 	}
 	
 	public MessageManager getMessageManager () { return manager; }
-
-	
-
 }
