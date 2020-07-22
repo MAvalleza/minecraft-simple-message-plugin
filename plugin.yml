@@ -1,0 +1,10 @@
+version: 1.0
+name: MessagePlugin
+main: com.test.message.Main
+author: Almond Valleza
+description: Simple message plugin
+commands:
+  message:
+    aliases: [msg]
+  reply:
+    aliases: [r]
